@@ -1,1 +1,18 @@
-{"name":"فضاء الثانوية | School Hub","short_name":"فضاء الثانوية","description":"منصة الإعلانات والأندية والأنشطة المدرسية","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#f5f7fb","theme_color":"#101d40","icons":[{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+  "name": "فضاء الثانوية التأهيلية الوفاق | Al Wifaq School Hub",
+  "short_name": "فضاء الوفاق",
+  "description": "إعلانات وأخبار وأندية وأنشطة ثانوية الوفاق التأهيلية",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#101d40",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

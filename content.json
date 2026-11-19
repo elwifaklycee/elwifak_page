@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T15:31:53.314Z",
+  "updatedAt": "2026-11-19T17:18:18.276806+00:00",
   "news": [
     {
       "id": "n1",
@@ -56,91 +56,471 @@
       "id": "c1",
       "icon": "🔬",
       "title": {
-        "ar": "نادي العلوم والابتكار",
-        "fr": "Club des sciences et de l’innovation",
-        "en": "Science & Innovation Club"
+        "ar": "نادي الثقافة العلمية",
+        "fr": "Club de culture scientifique",
+        "en": "Scientific Culture Club"
       },
       "desc": {
-        "ar": "تجارب علمية، مشاريع ابتكارية، ومسابقات في العلوم.",
-        "fr": "Expériences scientifiques, projets innovants et concours.",
-        "en": "Science experiments, innovation projects, and competitions."
+        "ar": "أنشطة ومبادرات تربوية في مجال الثقافة العلمية، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de culture scientifique, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in scientific culture, led with student participation."
       },
-      "members": 28
+      "field": {
+        "ar": "مجال الثقافة العلمية",
+        "fr": "Culture scientifique",
+        "en": "Scientific culture"
+      },
+      "members": 0
     },
     {
       "id": "c2",
       "icon": "📚",
       "title": {
-        "ar": "نادي القراءة والثقافة",
-        "fr": "Club de lecture et de culture",
-        "en": "Reading & Culture Club"
+        "ar": "نادي القراءة والإبداع",
+        "fr": "Club de lecture et de créativité",
+        "en": "Reading & Creativity Club"
       },
       "desc": {
-        "ar": "قراءة، مناظرات، لقاءات ثقافية وإنتاجات أدبية.",
-        "fr": "Lecture, débats, rencontres culturelles et créations littéraires.",
-        "en": "Reading, debates, cultural meetings, and creative writing."
+        "ar": "أنشطة ومبادرات تربوية في مجال القراءة والثقافة، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de lecture et culture, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in reading and culture, led with student participation."
       },
-      "members": 22
+      "field": {
+        "ar": "مجال القراءة والثقافة",
+        "fr": "Lecture et culture",
+        "en": "Reading and culture"
+      },
+      "members": 0
     },
     {
       "id": "c3",
       "icon": "🌱",
       "title": {
-        "ar": "نادي البيئة والتنمية المستدامة",
-        "fr": "Club de l’environnement",
-        "en": "Environment Club"
+        "ar": "النادي البيئي والتنمية المستدامة",
+        "fr": "Club de l’environnement et du développement durable",
+        "en": "Environment & Sustainable Development Club"
       },
       "desc": {
-        "ar": "مبادرات بيئية، حملات توعية، وفضاء مدرسي أخضر.",
-        "fr": "Initiatives écologiques, sensibilisation et établissement plus vert.",
-        "en": "Environmental projects, awareness campaigns, and a greener school."
+        "ar": "أنشطة ومبادرات تربوية في مجال البيئة والتنمية المستدامة، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de environnement et développement durable, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in environment and sustainable development, led with student participation."
       },
-      "members": 19
+      "field": {
+        "ar": "مجال البيئة والتنمية المستدامة",
+        "fr": "Environnement et développement durable",
+        "en": "Environment and sustainable development"
+      },
+      "members": 0
     },
     {
       "id": "c4",
       "icon": "🎭",
       "title": {
-        "ar": "نادي المسرح والفنون",
-        "fr": "Club de théâtre et des arts",
-        "en": "Theatre & Arts Club"
+        "ar": "نادي المسرح والسينما",
+        "fr": "Club de théâtre et de cinéma",
+        "en": "Theatre & Cinema Club"
       },
       "desc": {
-        "ar": "مسرح، تعبير فني، تصوير، وإبداع جماعي.",
-        "fr": "Théâtre, expression artistique, photographie et création collective.",
-        "en": "Theatre, creative arts, photography, and collaboration."
+        "ar": "أنشطة ومبادرات تربوية في المجال الثقافي والفني، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de culture et arts, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in culture and arts, led with student participation."
       },
-      "members": 16
+      "field": {
+        "ar": "المجال الثقافي والفني",
+        "fr": "Culture et arts",
+        "en": "Culture and arts"
+      },
+      "members": 0
     },
     {
       "id": "c5",
       "icon": "💻",
       "title": {
-        "ar": "نادي الإعلاميات والبرمجة",
-        "fr": "Club informatique et programmation",
-        "en": "Computing & Coding Club"
+        "ar": "نادي الإبداع التكنولوجي والبرمجة",
+        "fr": "Club de création technologique et de programmation",
+        "en": "Technology & Coding Club"
       },
       "desc": {
-        "ar": "تعلم البرمجة والتصميم الرقمي وإنجاز مشاريع مفيدة.",
-        "fr": "Programmation, création numérique et projets pratiques.",
-        "en": "Coding, digital design, and practical projects."
+        "ar": "أنشطة ومبادرات تربوية في مجال المعلوميات، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de informatique, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in computing, led with student participation."
       },
-      "members": 24
+      "field": {
+        "ar": "مجال المعلوميات",
+        "fr": "Informatique",
+        "en": "Computing"
+      },
+      "members": 0
     },
     {
       "id": "c6",
       "icon": "⚽",
       "title": {
-        "ar": "نادي الرياضة والصحة",
-        "fr": "Club du sport et de la santé",
-        "en": "Sports & Wellbeing Club"
+        "ar": "نادي الرياضة المدرسية",
+        "fr": "Club du sport scolaire",
+        "en": "School Sports Club"
       },
       "desc": {
-        "ar": "أنشطة رياضية، توعية صحية، وروح الفريق.",
-        "fr": "Activités sportives, santé et esprit d’équipe.",
-        "en": "Sports activities, wellbeing, and teamwork."
+        "ar": "أنشطة ومبادرات تربوية في مجال الرياضة، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de sport, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in sports, led with student participation."
       },
-      "members": 31
+      "field": {
+        "ar": "مجال الرياضة",
+        "fr": "Sport",
+        "en": "Sports"
+      },
+      "members": 0,
+      "coordinator": {
+        "ar": "مهدي الشطيبي",
+        "fr": "Mehdi Chtibi",
+        "en": "Mehdi Chtibi"
+      }
+    },
+    {
+      "id": "c7",
+      "icon": "🤝",
+      "title": {
+        "ar": "نادي التسامح والتعايش ATP2C",
+        "fr": "Club de la tolérance et du vivre-ensemble ATP2C",
+        "en": "Tolerance & Coexistence Club ATP2C"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال التسامح والتعايش، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de tolérance et vivre-ensemble, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in tolerance and coexistence, led with student participation."
+      },
+      "field": {
+        "ar": "مجال التسامح والتعايش",
+        "fr": "Tolérance et vivre-ensemble",
+        "en": "Tolerance and coexistence"
+      },
+      "members": 0,
+      "coordinator": {
+        "ar": "جلال البوهي",
+        "fr": "Jalal El Bouhi",
+        "en": "Jalal El Bouhi"
+      }
+    },
+    {
+      "id": "c8",
+      "icon": "💚",
+      "title": {
+        "ar": "نادي التربية على القيم",
+        "fr": "Club d’éducation aux valeurs",
+        "en": "Values Education Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال المواطنة وحقوق الإنسان، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de citoyenneté et droits humains, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in citizenship and human rights, led with student participation."
+      },
+      "field": {
+        "ar": "مجال المواطنة وحقوق الإنسان",
+        "fr": "Citoyenneté et droits humains",
+        "en": "Citizenship and human rights"
+      },
+      "members": 0
+    },
+    {
+      "id": "c9",
+      "icon": "🎧",
+      "title": {
+        "ar": "نادي الاستماع والوساطة التربوية",
+        "fr": "Club d’écoute et de médiation éducative",
+        "en": "Listening & Educational Mediation Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال الاستماع والوساطة التربوية، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de écoute et médiation éducative, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in listening and educational mediation, led with student participation."
+      },
+      "field": {
+        "ar": "مجال الاستماع والوساطة التربوية",
+        "fr": "Écoute et médiation éducative",
+        "en": "Listening and educational mediation"
+      },
+      "members": 0
+    },
+    {
+      "id": "c10",
+      "icon": "🗣️",
+      "title": {
+        "ar": "نادي التواصل وتنمية الذات",
+        "fr": "Club de communication et de développement personnel",
+        "en": "Communication & Personal Development Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال التواصل، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de communication, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in communication, led with student participation."
+      },
+      "field": {
+        "ar": "مجال التواصل",
+        "fr": "Communication",
+        "en": "Communication"
+      },
+      "members": 0
+    },
+    {
+      "id": "c11",
+      "icon": "🌍",
+      "title": {
+        "ar": "نادي تطوير اللغات",
+        "fr": "Club de développement des langues",
+        "en": "Language Development Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال تطوير اللغات، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de développement des langues, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in language development, led with student participation."
+      },
+      "field": {
+        "ar": "مجال تطوير اللغات",
+        "fr": "Développement des langues",
+        "en": "Language development"
+      },
+      "members": 0
+    },
+    {
+      "id": "c12",
+      "icon": "🧭",
+      "title": {
+        "ar": "نادي التوجيه المدرسي",
+        "fr": "Club d’orientation scolaire",
+        "en": "School Guidance Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال التوجيه المدرسي، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de orientation scolaire, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in school guidance, led with student participation."
+      },
+      "field": {
+        "ar": "مجال التوجيه المدرسي",
+        "fr": "Orientation scolaire",
+        "en": "School guidance"
+      },
+      "members": 0
+    },
+    {
+      "id": "c13",
+      "icon": "🏆",
+      "title": {
+        "ar": "نادي الأولمبياد والمسابقات",
+        "fr": "Club des olympiades et des concours",
+        "en": "Olympiads & Competitions Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال التحدي، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de défis et concours, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in challenges and competitions, led with student participation."
+      },
+      "field": {
+        "ar": "مجال التحدي",
+        "fr": "Défis et concours",
+        "en": "Challenges and competitions"
+      },
+      "members": 0
+    },
+    {
+      "id": "c14",
+      "icon": "⚙️",
+      "title": {
+        "ar": "نادي الثقافة التكنولوجية",
+        "fr": "Club de culture technologique",
+        "en": "Technology Culture Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال الثقافة التكنولوجية، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de culture technologique, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in technology culture, led with student participation."
+      },
+      "field": {
+        "ar": "مجال الثقافة التكنولوجية",
+        "fr": "Culture technologique",
+        "en": "Technology culture"
+      },
+      "members": 0
+    },
+    {
+      "id": "c15",
+      "icon": "📖",
+      "title": {
+        "ar": "نادي القرآن والحديث النبوي",
+        "fr": "Club du Coran et du hadith",
+        "en": "Quran & Hadith Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال القرآن والحديث النبوي، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de coran et hadith, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in quran and hadith, led with student participation."
+      },
+      "field": {
+        "ar": "مجال القرآن والحديث النبوي",
+        "fr": "Coran et hadith",
+        "en": "Quran and Hadith"
+      },
+      "members": 0
+    },
+    {
+      "id": "c16",
+      "icon": "🧩",
+      "title": {
+        "ar": "نادي الثقافة والانفتاح",
+        "fr": "Club de culture et d’ouverture",
+        "en": "Culture & Openness Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال القراءة والثقافة، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de lecture et culture, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in reading and culture, led with student participation."
+      },
+      "field": {
+        "ar": "مجال القراءة والثقافة",
+        "fr": "Lecture et culture",
+        "en": "Reading and culture"
+      },
+      "members": 0
+    },
+    {
+      "id": "c17",
+      "icon": "⚖️",
+      "title": {
+        "ar": "نادي المواطنة والسلوك المدني",
+        "fr": "Club de la citoyenneté et du comportement civique",
+        "en": "Citizenship & Civic Conduct Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال المواطنة وحقوق الإنسان، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de citoyenneté et droits humains, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in citizenship and human rights, led with student participation."
+      },
+      "field": {
+        "ar": "مجال المواطنة وحقوق الإنسان",
+        "fr": "Citoyenneté et droits humains",
+        "en": "Citizenship and human rights"
+      },
+      "members": 0
+    },
+    {
+      "id": "c18",
+      "icon": "🩺",
+      "title": {
+        "ar": "نادي السلامة الصحية",
+        "fr": "Club de santé et de prévention",
+        "en": "Health & Safety Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال الصحة والوقاية من المخاطر، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de santé et prévention des risques, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in health and risk prevention, led with student participation."
+      },
+      "field": {
+        "ar": "مجال الصحة والوقاية من المخاطر",
+        "fr": "Santé et prévention des risques",
+        "en": "Health and risk prevention"
+      },
+      "members": 0
+    },
+    {
+      "id": "c19",
+      "icon": "💡",
+      "title": {
+        "ar": "نادي التنشيط الفكري وتنمية المهارات",
+        "fr": "Club d’animation intellectuelle et de développement des compétences",
+        "en": "Intellectual Enrichment & Skills Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال المهارات الحياتية، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de compétences de vie, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in life skills, led with student participation."
+      },
+      "field": {
+        "ar": "مجال المهارات الحياتية",
+        "fr": "Compétences de vie",
+        "en": "Life skills"
+      },
+      "members": 0
+    },
+    {
+      "id": "c20",
+      "icon": "🚀",
+      "title": {
+        "ar": "نادي المقاولاتية",
+        "fr": "Club d’entrepreneuriat",
+        "en": "Entrepreneurship Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال التربية المالية، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de éducation financière, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in financial education, led with student participation."
+      },
+      "field": {
+        "ar": "مجال التربية المالية",
+        "fr": "Éducation financière",
+        "en": "Financial education"
+      },
+      "members": 0
+    },
+    {
+      "id": "c21",
+      "icon": "💰",
+      "title": {
+        "ar": "نادي التربية المالية",
+        "fr": "Club d’éducation financière",
+        "en": "Financial Education Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال التربية المالية، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de éducation financière, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in financial education, led with student participation."
+      },
+      "field": {
+        "ar": "مجال التربية المالية",
+        "fr": "Éducation financière",
+        "en": "Financial education"
+      },
+      "members": 0
+    },
+    {
+      "id": "c22",
+      "icon": "🤖",
+      "title": {
+        "ar": "نادي الذكاء الاصطناعي",
+        "fr": "Club d’intelligence artificielle",
+        "en": "Artificial Intelligence Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال المعلوميات، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de informatique, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in computing, led with student participation."
+      },
+      "field": {
+        "ar": "مجال المعلوميات",
+        "fr": "Informatique",
+        "en": "Computing"
+      },
+      "members": 0
+    },
+    {
+      "id": "c23",
+      "icon": "🏛️",
+      "title": {
+        "ar": "نادي التربية على التراث",
+        "fr": "Club d’éducation au patrimoine",
+        "en": "Heritage Education Club"
+      },
+      "desc": {
+        "ar": "أنشطة ومبادرات تربوية في مجال التراث والثقافة، بمشاركة التلميذات والتلاميذ.",
+        "fr": "Activités et initiatives éducatives autour de patrimoine et culture, avec la participation des élèves.",
+        "en": "Educational activities and initiatives in heritage and culture, led with student participation."
+      },
+      "field": {
+        "ar": "مجال التراث والثقافة",
+        "fr": "Patrimoine et culture",
+        "en": "Heritage and culture"
+      },
+      "members": 0
     }
   ],
   "activities": [
