@@ -1,0 +1,264 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-19T15:31:53.314Z",
+  "news": [
+    {
+      "id": "n1",
+      "type": "announcement",
+      "title": {
+        "ar": "انطلاق التسجيل في الأندية المدرسية",
+        "fr": "Ouverture des inscriptions aux clubs",
+        "en": "School club registration is open"
+      },
+      "body": {
+        "ar": "يمكن للتلميذات والتلاميذ تقديم طلب الانخراط في الأندية عبر فضاء الثانوية. اختار النادي المناسب وتابع حالة طلبك.",
+        "fr": "Les élèves peuvent demander à rejoindre les clubs depuis l’espace du lycée.",
+        "en": "Students can request to join school clubs through the School Hub."
+      },
+      "date": "2026-11-18",
+      "category": "school"
+    },
+    {
+      "id": "n2",
+      "type": "news",
+      "title": {
+        "ar": "أسبوع الأنشطة الثقافية والعلمية",
+        "fr": "Semaine des activités culturelles et scientifiques",
+        "en": "Cultural and science activities week"
+      },
+      "body": {
+        "ar": "برنامج متنوع من الورشات والعروض من تنظيم الأندية المدرسية. مرحباً بمساهماتكم ومقترحاتكم.",
+        "fr": "Un programme varié d’ateliers et de présentations organisé par les clubs.",
+        "en": "A varied program of workshops and presentations organized by school clubs."
+      },
+      "date": "2026-11-16",
+      "category": "clubs"
+    },
+    {
+      "id": "n3",
+      "type": "announcement",
+      "title": {
+        "ar": "إيداع مقترحات الأنشطة",
+        "fr": "Dépôt des propositions d’activités",
+        "en": "Submit activity proposals"
+      },
+      "body": {
+        "ar": "على الراغبين في تقديم فكرة نشاط التواصل مع مسؤول النادي قبل نهاية الأسبوع.",
+        "fr": "Les élèves souhaitant proposer une activité sont invités à contacter le responsable du club.",
+        "en": "Students who wish to propose an activity should contact their club coordinator."
+      },
+      "date": "2026-11-12",
+      "category": "clubs"
+    }
+  ],
+  "clubs": [
+    {
+      "id": "c1",
+      "icon": "🔬",
+      "title": {
+        "ar": "نادي العلوم والابتكار",
+        "fr": "Club des sciences et de l’innovation",
+        "en": "Science & Innovation Club"
+      },
+      "desc": {
+        "ar": "تجارب علمية، مشاريع ابتكارية، ومسابقات في العلوم.",
+        "fr": "Expériences scientifiques, projets innovants et concours.",
+        "en": "Science experiments, innovation projects, and competitions."
+      },
+      "members": 28
+    },
+    {
+      "id": "c2",
+      "icon": "📚",
+      "title": {
+        "ar": "نادي القراءة والثقافة",
+        "fr": "Club de lecture et de culture",
+        "en": "Reading & Culture Club"
+      },
+      "desc": {
+        "ar": "قراءة، مناظرات، لقاءات ثقافية وإنتاجات أدبية.",
+        "fr": "Lecture, débats, rencontres culturelles et créations littéraires.",
+        "en": "Reading, debates, cultural meetings, and creative writing."
+      },
+      "members": 22
+    },
+    {
+      "id": "c3",
+      "icon": "🌱",
+      "title": {
+        "ar": "نادي البيئة والتنمية المستدامة",
+        "fr": "Club de l’environnement",
+        "en": "Environment Club"
+      },
+      "desc": {
+        "ar": "مبادرات بيئية، حملات توعية، وفضاء مدرسي أخضر.",
+        "fr": "Initiatives écologiques, sensibilisation et établissement plus vert.",
+        "en": "Environmental projects, awareness campaigns, and a greener school."
+      },
+      "members": 19
+    },
+    {
+      "id": "c4",
+      "icon": "🎭",
+      "title": {
+        "ar": "نادي المسرح والفنون",
+        "fr": "Club de théâtre et des arts",
+        "en": "Theatre & Arts Club"
+      },
+      "desc": {
+        "ar": "مسرح، تعبير فني، تصوير، وإبداع جماعي.",
+        "fr": "Théâtre, expression artistique, photographie et création collective.",
+        "en": "Theatre, creative arts, photography, and collaboration."
+      },
+      "members": 16
+    },
+    {
+      "id": "c5",
+      "icon": "💻",
+      "title": {
+        "ar": "نادي الإعلاميات والبرمجة",
+        "fr": "Club informatique et programmation",
+        "en": "Computing & Coding Club"
+      },
+      "desc": {
+        "ar": "تعلم البرمجة والتصميم الرقمي وإنجاز مشاريع مفيدة.",
+        "fr": "Programmation, création numérique et projets pratiques.",
+        "en": "Coding, digital design, and practical projects."
+      },
+      "members": 24
+    },
+    {
+      "id": "c6",
+      "icon": "⚽",
+      "title": {
+        "ar": "نادي الرياضة والصحة",
+        "fr": "Club du sport et de la santé",
+        "en": "Sports & Wellbeing Club"
+      },
+      "desc": {
+        "ar": "أنشطة رياضية، توعية صحية، وروح الفريق.",
+        "fr": "Activités sportives, santé et esprit d’équipe.",
+        "en": "Sports activities, wellbeing, and teamwork."
+      },
+      "members": 31
+    }
+  ],
+  "activities": [
+    {
+      "id": "a1",
+      "clubId": "c1",
+      "icon": "🧪",
+      "date": "2026-11-26",
+      "location": {
+        "ar": "مختبر العلوم",
+        "fr": "Laboratoire de sciences",
+        "en": "Science laboratory"
+      },
+      "title": {
+        "ar": "ورشة التجارب الكيميائية الآمنة",
+        "fr": "Atelier d’expériences chimiques",
+        "en": "Safe chemistry workshop"
+      },
+      "desc": {
+        "ar": "ورشة تفاعلية حول قواعد السلامة وإنجاز تجارب مبسطة.",
+        "fr": "Atelier pratique sur la sécurité et des expériences simples.",
+        "en": "A practical workshop on lab safety and simple experiments."
+      }
+    },
+    {
+      "id": "a2",
+      "clubId": "c3",
+      "icon": "🌿",
+      "date": "2026-12-03",
+      "location": {
+        "ar": "ساحة المؤسسة",
+        "fr": "Cour de l’établissement",
+        "en": "School courtyard"
+      },
+      "title": {
+        "ar": "حملة تشجير فضاء المؤسسة",
+        "fr": "Campagne de plantation dans l’établissement",
+        "en": "School greening campaign"
+      },
+      "desc": {
+        "ar": "مبادرة جماعية للعناية بالمساحات الخضراء داخل المؤسسة.",
+        "fr": "Une initiative collective pour entretenir les espaces verts.",
+        "en": "A group initiative to care for the school green spaces."
+      }
+    },
+    {
+      "id": "a3",
+      "clubId": "c2",
+      "icon": "📖",
+      "date": "2026-12-10",
+      "location": {
+        "ar": "قاعة الأنشطة",
+        "fr": "Salle des activités",
+        "en": "Activity room"
+      },
+      "title": {
+        "ar": "لقاء القراءة ومناقشة كتاب",
+        "fr": "Rencontre lecture et discussion",
+        "en": "Reading circle and book discussion"
+      },
+      "desc": {
+        "ar": "لقاء مفتوح لمحبي القراءة لتبادل الآراء حول كتاب مختار.",
+        "fr": "Une rencontre ouverte pour échanger autour d’un livre.",
+        "en": "An open session to discuss a selected book."
+      }
+    }
+  ],
+  "gallery": [],
+  "projects": [
+    {
+      "id": "p1",
+      "code": "PRJ-2026-01",
+      "title": {
+        "ar": "المسرح والتعبير",
+        "fr": "Théâtre et expression",
+        "en": "Theatre and Expression"
+      },
+      "domain": "arts",
+      "objective": {
+        "ar": "تنمية التعبير والثقة والتعاون لدى المتعلمين.",
+        "fr": "Développer l’expression, la confiance et la coopération.",
+        "en": "Develop student expression, confidence, and collaboration."
+      },
+      "audience": {
+        "ar": "المتعلمون",
+        "fr": "Élèves",
+        "en": "Students"
+      },
+      "expectedBeneficiaries": 30,
+      "startDate": "2026-10-01",
+      "endDate": "2027-01-15",
+      "plannedActivities": 6,
+      "status": "approvedProject"
+    },
+    {
+      "id": "p2",
+      "code": "PRJ-2026-02",
+      "title": {
+        "ar": "القراءة والذاكرة المحلية",
+        "fr": "Lecture et mémoire locale",
+        "en": "Reading and Local Memory"
+      },
+      "domain": "reading",
+      "objective": {
+        "ar": "تعزيز القراءة والتعرف على التراث المحلي.",
+        "fr": "Encourager la lecture et découvrir le patrimoine local.",
+        "en": "Encourage reading and explore local heritage."
+      },
+      "audience": {
+        "ar": "المتعلمون والأطر التربوية",
+        "fr": "Élèves et équipe éducative",
+        "en": "Students and educators"
+      },
+      "expectedBeneficiaries": 40,
+      "startDate": "2026-11-01",
+      "endDate": "2027-03-30",
+      "plannedActivities": 5,
+      "status": "proposed"
+    }
+  ]
+}
