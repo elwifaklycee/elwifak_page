@@ -248,3 +248,69 @@ begin
     end if;
   end loop;
 end $$;
+
+
+-- Public media bucket for school photos and videos uploaded from the app.
+-- Files are capped at 50 MB and can be viewed publicly because the school gallery is public.
+insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
+values (
+  'school-media',
+  'school-media',
+  true,
+  52428800,
+  array['image/jpeg','image/png','image/webp','image/gif','image/avif','video/mp4','video/webm','video/quicktime']
+)
+on conflict (id) do update set
+  public = excluded.public,
+  file_size_limit = excluded.file_size_limit,
+  allowed_mime_types = excluded.allowed_mime_types;
+
+drop policy if exists "public can view school media" on storage.objects;
+drop policy if exists "admins and assigned coordinators upload school media" on storage.objects;
+drop policy if exists "admins and assigned coordinators update school media" on storage.objects;
+drop policy if exists "admins and assigned coordinators delete school media" on storage.objects;
+
+create policy "public can view school media"
+  on storage.objects for select to anon, authenticated
+  using (bucket_id = 'school-media');
+
+create policy "admins and assigned coordinators upload school media"
+  on storage.objects for insert to authenticated
+  with check (
+    bucket_id = 'school-media'
+    and (
+      public.is_school_admin()
+      or (split_part(name, '/', 1) = 'club' and public.is_club_coordinator(split_part(name, '/', 2)))
+      or (split_part(name, '/', 1) = 'activity' and public.can_manage_activity_media(split_part(name, '/', 2)))
+    )
+  );
+
+create policy "admins and assigned coordinators update school media"
+  on storage.objects for update to authenticated
+  using (
+    bucket_id = 'school-media'
+    and (
+      public.is_school_admin()
+      or (split_part(name, '/', 1) = 'club' and public.is_club_coordinator(split_part(name, '/', 2)))
+      or (split_part(name, '/', 1) = 'activity' and public.can_manage_activity_media(split_part(name, '/', 2)))
+    )
+  )
+  with check (
+    bucket_id = 'school-media'
+    and (
+      public.is_school_admin()
+      or (split_part(name, '/', 1) = 'club' and public.is_club_coordinator(split_part(name, '/', 2)))
+      or (split_part(name, '/', 1) = 'activity' and public.can_manage_activity_media(split_part(name, '/', 2)))
+    )
+  );
+
+create policy "admins and assigned coordinators delete school media"
+  on storage.objects for delete to authenticated
+  using (
+    bucket_id = 'school-media'
+    and (
+      public.is_school_admin()
+      or (split_part(name, '/', 1) = 'club' and public.is_club_coordinator(split_part(name, '/', 2)))
+      or (split_part(name, '/', 1) = 'activity' and public.can_manage_activity_media(split_part(name, '/', 2)))
+    )
+  );
