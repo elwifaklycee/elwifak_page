@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updatedAt": "2026-11-19T17:18:18.276806+00:00",
+  "version": 2,
+  "updatedAt": "2026-11-21T12:30:00+00:00",
   "news": [
     {
       "id": "n1",
@@ -588,7 +588,131 @@
       }
     }
   ],
-  "gallery": [],
+  "gallery": [
+    {
+      "id": "media-campus-20261121",
+      "type": "photo",
+      "url": "./assets/media/campus.jpg",
+      "date": "2026-11-21",
+      "scopeType": "general",
+      "scopeId": "",
+      "caption": {
+        "ar": "فضاء المؤسسة",
+        "fr": "La cour de l’établissement",
+        "en": "The school grounds"
+      },
+      "featured": true
+    },
+    {
+      "id": "media-fair-20261121",
+      "type": "photo",
+      "url": "./assets/media/school-fair.jpg",
+      "date": "2026-11-21",
+      "scopeType": "general",
+      "scopeId": "",
+      "caption": {
+        "ar": "معرض الأندية والمشاريع المدرسية",
+        "fr": "Forum des clubs et des projets scolaires",
+        "en": "School clubs and projects fair"
+      },
+      "featured": true
+    },
+    {
+      "id": "media-forum-20261121",
+      "type": "photo",
+      "url": "./assets/media/education-forum.jpg",
+      "date": "2026-11-21",
+      "scopeType": "general",
+      "scopeId": "",
+      "caption": {
+        "ar": "لقاءات تربوية وشراكات داعمة",
+        "fr": "Rencontres éducatives et partenariats",
+        "en": "Educational gatherings and partnerships"
+      }
+    },
+    {
+      "id": "media-achievements-20261121",
+      "type": "photo",
+      "url": "./assets/media/student-achievements.jpg",
+      "date": "2026-11-21",
+      "scopeType": "general",
+      "scopeId": "",
+      "caption": {
+        "ar": "الاحتفاء بإنجازات المتعلمين",
+        "fr": "Célébrer les réussites des élèves",
+        "en": "Celebrating student achievements"
+      },
+      "featured": true
+    },
+    {
+      "id": "media-excellence-20261121",
+      "type": "photo",
+      "url": "./assets/media/excellence-event.jpg",
+      "date": "2026-11-21",
+      "scopeType": "general",
+      "scopeId": "",
+      "caption": {
+        "ar": "حفل التميز والتفوق الدراسي",
+        "fr": "Cérémonie de l’excellence scolaire",
+        "en": "Academic excellence ceremony"
+      }
+    },
+    {
+      "id": "media-recognition-20261121",
+      "type": "photo",
+      "url": "./assets/media/recognition.jpg",
+      "date": "2026-11-21",
+      "scopeType": "general",
+      "scopeId": "",
+      "caption": {
+        "ar": "لحظات تقدير وتشجيع",
+        "fr": "Des moments de reconnaissance et d’encouragement",
+        "en": "Moments of recognition and encouragement"
+      }
+    },
+    {
+      "id": "media-award-20261121",
+      "type": "photo",
+      "url": "./assets/media/award-moment.jpg",
+      "date": "2026-11-21",
+      "scopeType": "general",
+      "scopeId": "",
+      "caption": {
+        "ar": "تتويج الجهد والمثابرة",
+        "fr": "Récompenser l’effort et la persévérance",
+        "en": "Recognizing effort and perseverance"
+      }
+    },
+    {
+      "id": "media-video-excellence-20261121",
+      "type": "video",
+      "url": "./assets/media/excellence-ceremony.mp4",
+      "poster": "./assets/media/excellence-poster.jpg",
+      "date": "2026-11-21",
+      "scopeType": "general",
+      "scopeId": "",
+      "caption": {
+        "ar": "فيديو من حفل التميز",
+        "fr": "Vidéo de la cérémonie de l’excellence",
+        "en": "Highlights from the excellence ceremony"
+      },
+      "featured": true
+    },
+    {
+      "id": "media-video-school-20261121",
+      "type": "video",
+      "url": "./assets/media/school-life.mp4",
+      "poster": "./assets/media/school-life-poster.jpg",
+      "date": "2026-11-21",
+      "scopeType": "general",
+      "scopeId": "",
+      "caption": {
+        "ar": "جولة مصورة في الحياة المدرسية",
+        "fr": "Un aperçu de la vie scolaire",
+        "en": "A look at school life"
+      }
+    }
+  ],
   "projects": [
     {
       "id": "p1",
